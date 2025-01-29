@@ -8,6 +8,7 @@ h155-belden:
     ext_diameter_mm: 5.4
     velocity_factor: 0.8
     impedance: 50
+    price: 8.17
 rf5-satec:
   name: RF-5 (Satec)
   manufacturer: Satec
@@ -18,6 +19,7 @@ rf5-satec:
     ext_diameter_mm: 5.4
     velocity_factor: 0.78
     impedance: 50
+    price: 3.50
 rf7-satec:
   name: RF-7 (Satec)
   manufacturer: Satec
@@ -28,6 +30,7 @@ rf7-satec:
     ext_diameter_mm: 7.3
     velocity_factor: 0.84
     impedance: 50
+    price: 8.99
 rf10f-satec:
   name: RF-10F (Satec)
   manufacturer: Satec
@@ -38,6 +41,7 @@ rf10f-satec:
     ext_diameter_mm: 10.3
     velocity_factor: 0.84
     impedance: 50
+    price: 15
 rg316u-satec:
   name: RG-316U (Satec)
   manufacturer: Satec
@@ -48,6 +52,7 @@ rg316u-satec:
     ext_diameter_mm: 2.49
     velocity_factor: 0.7
     impedance: 50
+    price: 24
 rg174-satec:
   name: RG-174 (Satec)
   manufacturer: Satec
@@ -58,6 +63,7 @@ rg174-satec:
     ext_diameter_mm: 2.7
     velocity_factor: 0.66
     impedance: 50
+    price: 3.50
 rg174premium-satec:
   name: RG-174 Premium (Satec)
   manufacturer: Satec
@@ -68,6 +74,7 @@ rg174premium-satec:
     ext_diameter_mm: 2.9
     velocity_factor: 0.66
     impedance: 50
+    price: 3.50
 rg58premium-satec:
   name: RG-58 Premium (Satec)
   manufacturer: Satec
@@ -78,6 +85,7 @@ rg58premium-satec:
     ext_diameter_mm: 5.0
     velocity_factor: 0.66
     impedance: 50
+    price: 2.70
 rg58flex-satec:
   name: RG-58 Flex (Satec)
   manufacturer: Satec
@@ -88,6 +96,7 @@ rg58flex-satec:
     ext_diameter_mm: 5.0
     velocity_factor: 0.66
     impedance: 50
+    price: 3.50
 rg58all-satec:
   name: RG-58 ALL (Satec)
   manufacturer: Satec
@@ -98,6 +107,7 @@ rg58all-satec:
     ext_diameter_mm: 5.0
     velocity_factor: 0.78
     impedance: 50
+    price: 3.00
 rg213-satec:
   name: RG-213 (Satec)
   manufacturer: Satec
@@ -108,6 +118,7 @@ rg213-satec:
     ext_diameter_mm: 10.3
     velocity_factor: 0.66
     impedance: 50
+    price: 11.00
 rg213premium-satec:
   name: RG-213 Premium (Satec)
   manufacturer: Satec
@@ -118,6 +129,7 @@ rg213premium-satec:
     ext_diameter_mm: 10.3
     velocity_factor: 0.66
     impedance: 50
+    price: 11.00
 rg142-satec:
   name: RG-142 (Satec)
   manufacturer: Satec
@@ -128,6 +140,7 @@ rg142-satec:
     ext_diameter_mm: 4.95
     velocity_factor: 0.7
     impedance: 50
+    price: 35
 rg178-satec:
   name: RG-178 (Satec)
   manufacturer: Satec
@@ -138,6 +151,7 @@ rg178-satec:
     ext_diameter_mm: 1.8
     velocity_factor: 0.7
     impedance: 50
+    price: 0
 mrc240-satec:
   name: MRC-240 (Satec)
   manufacturer: Satec
@@ -148,6 +162,7 @@ mrc240-satec:
     ext_diameter_mm: 6.1
     velocity_factor: 0.84
     impedance: 50
+    price: 3.99
 ekh-155:
   name: EKH-155 (Elektrokabel)
   manufacturer: Elektrokabel
@@ -158,6 +173,7 @@ ekh-155:
     ext_diameter_mm: 5.0
     velocity_factor: 0.81
     impedance: 50
+    price: 3.85
 andrew-heliax-fsj-1/4:
   name: Heliax FSJ 1/4" (Andrew)
   manufacturer: Andrew
@@ -168,6 +184,7 @@ andrew-heliax-fsj-1/4:
     ext_diameter_mm: 7.36
     velocity_factor: 0.82
     impedance: 50
+    price: 13.18
 h500-belden:
   name: H500 (Belden)
   manufacturer: Belden
@@ -178,6 +195,7 @@ h500-belden:
     ext_diameter_mm: 9.8
     velocity_factor: 0.81
     impedance: 50
+    price: 18.00
 h1000-belden:
   name: H1000 (Belden)
   manufacturer: Belden
@@ -188,6 +206,7 @@ h1000-belden:
     ext_diameter_mm: 10.3
     velocity_factor: 0.83
     impedance: 50
+    price: 20.77
 CNT400-andrew:
   name: CNT-400 (Andrew)
   manufacturer: Andrew
@@ -197,6 +216,7 @@ CNT400-andrew:
     ext_diameter_mm: 10.29
     velocity_factor: 0.85
     impedance: 50
+    price: 7.93
 RFA-1/2"-Draka:
   name: RFA 1/2" (Draka)
   manufacturer: Draka
@@ -206,6 +226,7 @@ RFA-1/2"-Draka:
     ext_diameter_mm: 16.00
     velocity_factor: 0.88
     impedance: 50
+    price: 0
 RFA-7/8"-Draka:
   name: RFA 7/8" (Draka)
   manufacturer: Draka
@@ -215,6 +236,7 @@ RFA-7/8"-Draka:
     ext_diameter_mm: 27.80
     velocity_factor: 0.90
     impedance: 50
+    price: 0
 UltraFlex-7:
   name: UltraFlex 7 (M&P)
   manufacturer: M&P
@@ -225,6 +247,7 @@ UltraFlex-7:
     ext_diameter_mm: 7.3
     velocity_factor: 0.83
     impedance: 50
+    price: 22.00
 5D-FB-Hansen:
   name: 5D-FB
   manufacturer: HANSEN
@@ -235,6 +258,7 @@ UltraFlex-7:
     ext_diametr_mm: 7.5
     velocity_factor: 0.82
     impedance: 50
+    price: 0
 HyperFlex-5:
   name: HyperFlex 5 (M&P)
   manufacturer: M&P
@@ -245,6 +269,7 @@ HyperFlex-5:
     ext_diameter_mm: 5.4
     velocity_factor: 0.87
     impedance: 50
+    price: 15.00
 4D-FB:
   name: 4D-FB (ELESUN)
   manufacturer: ELESUN
@@ -255,6 +280,7 @@ HyperFlex-5:
     ext_diameter_mm: 6.1
     velocity_factor: 0.81
     impedance: 50
+    price: 0
 Trilan-400:
   name: Trilan 400 (Dipol)
   manufacturer: Dipol
@@ -265,6 +291,7 @@ Trilan-400:
     ext_diameter_mm: 10.3
     velocity_factor: 0.83
     impedance: 50
+    price: 13.28
 Trilan-240:
   name: Trilan 240 (Dipol)
   manufacturer: Dipol
@@ -275,6 +302,7 @@ Trilan-240:
     ext_diameter_mm: 6.1
     velocity_factor: 0.81
     impedance: 50
+    price: 4.50
 LDF4-50A:
   name: LDF4-50A (Andrew)
   manufacturer: Andrew
@@ -285,6 +313,7 @@ LDF4-50A:
     ext_diameter_mm: 15.875
     velocity_factor: 0.88
     impedance: 50
+    price: 17.79
 CNT-600:
   name: CNT-600 (Andrew)
   manufacturer: Andrew
@@ -295,6 +324,7 @@ CNT-600:
     ext_diameter_mm: 14.99
     velocity_factor: 0.87
     impedance: 50
+    price: 0
 AVA5-50FX:
   name: AVA5-50FX (Andrew)
   manufacturer: Andrew
@@ -305,6 +335,7 @@ AVA5-50FX:
     ext_diameter_mm: 27.99
     velocity_factor: 0.91
     impedance: 50
+    price: 33.73
 HyperFlex-13:
   name: HyperFlex 13 (M&P)
   manufacturer: M&P
@@ -315,6 +346,7 @@ HyperFlex-13:
     ext_diameter_mm: 12.7
     velocity_factor: 0.86
     impedance: 50
+    price: 34.00
 HyperFlex-10:
   name: HyperFlex 10 (M&P)
   manufacturer: M&P
@@ -325,6 +357,7 @@ HyperFlex-10:
     ext_diameter_mm: 10.3
     velocity_factor: 0.87
     impedance: 50
+    price: 21.50
 ExtraFlex-BURY-10:
   name: ExtraFlex Bury 10 (M&P)
   manufacturer: M&P
@@ -335,6 +368,7 @@ ExtraFlex-BURY-10:
     ext_diameter_mm: 10.3
     velocity_factor: 0.87
     impedance: 50
+    price: 28.50
 ExtraFlex-BURY-7:
   name: ExtraFlex Bury 7 (M&P)
   manufacturer: M&P
@@ -345,6 +379,7 @@ ExtraFlex-BURY-7:
     ext_diameter_mm: 7.3
     velocity_factor: 0.83
     impedance: 50
+    price: 24.00
 Aircell-5:
   name: Aircell 5 (SSB)
   manufacturer: SSB-Electronic GmbH
@@ -355,6 +390,7 @@ Aircell-5:
     ext_diameter_mm: 5.0
     velocity_factor: 0.85
     impedance: 50
+    price: 9.50
 Aircell-7:
   name: Aircell 7 (SSB)
   manufacturer: SSB-Electronic GmbH
@@ -365,6 +401,7 @@ Aircell-7:
     ext_diameter_mm: 7.3
     velocity_factor: 0.85
     impedance: 50
+    price: 18.00
 Ecoflex-5:
   name: Ecoflex 5 (SSB)
   manufacturer: SSB-Electronic GmbH
@@ -375,6 +412,7 @@ Ecoflex-5:
     ext_diameter_mm: 5.5
     velocity_factor: 0.80
     impedance: 50
+    price: 14.00
 Ecoflex-7:
   name: Ecoflex 7 (SSB)
   manufacturer: SSB-Electronic GmbH
@@ -385,6 +423,7 @@ Ecoflex-7:
     ext_diameter_mm: 7.3
     velocity_factor: 0.85
     impedance: 50
+    price: 23
 Ecoflex-10:
   name: Ecoflex 10 (SSB)
   manufacturer: SSB-Electronic GmbH
@@ -395,6 +434,7 @@ Ecoflex-10:
     ext_diameter_mm: 10.2
     velocity_factor: 0.85
     impedance: 50
+    price: 28.00
 Ecoflex-15:
   name: Ecoflex 15 (SSB)
   manufacturer: SSB-Electronic GmbH
@@ -405,3 +445,4 @@ Ecoflex-15:
     ext_diameter_mm: 14.6
     velocity_factor: 0.85
     impedance: 50
+    price: 48.32

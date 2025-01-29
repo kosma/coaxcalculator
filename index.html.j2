@@ -72,7 +72,8 @@ a:link { text-decoration: none; }
     output = {
       att: "-",
       pwr_out: "-",
-      loss_percentage: "-"
+      loss_percentage: "-",
+      cost: "-"
     }
 
     if(cable_data.att100m < 10000) {
@@ -85,6 +86,10 @@ a:link { text-decoration: none; }
       output.att = (Math.round(output.att*100)/100).toFixed(2);
       output.pwr_out = (Math.round(output.pwr_out*100)/100).toFixed(2);
       output.loss_percentage = (Math.round(output.loss_percentage*10)/10).toFixed(1);
+    }
+
+    if(cable_data.price > 0) {
+      output.cost = (cable_data.price * params.length).toFixed(2);
     }
 
     return output;
@@ -118,7 +123,8 @@ a:link { text-decoration: none; }
         key: key,
         name: cables[key].name,
         att100m: get_att_for_freq(cables[key]["attenuation"], params.freq),
-        link: cables[key].data_source
+        link: cables[key].data_source,
+        price: cables[key].additional_info.price
       }
 
       // add extra params (dB/power loss per specified cable length)
@@ -134,7 +140,7 @@ a:link { text-decoration: none; }
     // generate header
     out_row = document.createElement('pre');
     output =  "Calculating for " + params.freq + " MHz & " + params.length + " meter(s) & " + params.pwr_in + " Watts input: <br><br>";
-    output += "<b>Cable" + ' '.repeat(31) + "Loss          Power out</b></br>"
+    output += "<b>Cable" + ' '.repeat(31) + "Loss          Power out    Cost</b></br>"
 
     out_row.innerHTML = output;
     output_p.appendChild(out_row);
@@ -153,6 +159,7 @@ a:link { text-decoration: none; }
       output += o.name.padEnd(25)
       output += o.att.padStart(10) + " dB"
       output += o.loss_percentage.padStart(6) + "%" + o.pwr_out.padStart(11) + " W";
+      output += o.cost.padStart(8) + " zł";
       output += "    (<a href='" + o.link + "' target='_blank' rel='noopener noreferrer'>pdf</a>)"
       out_row.innerHTML = output;
       output_p.appendChild(out_row);
