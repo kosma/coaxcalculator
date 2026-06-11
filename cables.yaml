@@ -1,3 +1,14 @@
+rg316:
+  name: RG316U
+  manufacturer: Tasker
+  type: RG316
+  attenuation: { 10: 9.0, 50: 19.0, 100: 28.0, 300: 46.0, 500: 60.0, 800: 78.0, 1000: 93.0 }
+  data_source: https://www.tme.eu/Document/f95eb7ec6601001fd1c465534b0403a1/RG316.pdf
+  additional_info:
+    ext_diameter_mm: 2.5
+    velocity_factor: 0.69
+    impedance: 50
+    price: 10.74
 h155-belden:
   name: H155 (Belden)
   manufacturer: Belden
