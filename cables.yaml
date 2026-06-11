@@ -9,6 +9,17 @@ rg316:
     velocity_factor: 0.69
     impedance: 50
     price: 10.74
+rg178:
+  name: RG178BU
+  manufacturer: Tasker
+  type: RG178
+  attenuation: { 100: 45, 200: 60, 400: 100, 600: 122, 800: 140, 1000: 166 }
+  data_source: https://www.tme.eu/Document/7f071b478cab747b2e20f19a52956b3b/RG178.pdf
+  additional_info:
+    ext_diameter_mm: 1.8
+    velocity_factor: 0.69
+    impedance: 50
+    price: 4.90
 h155-belden:
   name: H155 (Belden)
   manufacturer: Belden
