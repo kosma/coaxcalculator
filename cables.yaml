@@ -31,6 +31,17 @@ h155-belden:
     velocity_factor: 0.8
     impedance: 50
     price: 8.17
+cabletech-155:
+  name: H155 (Cabletech)
+  manufacturer: Cabletech
+  type: H155
+  attenuation: { 50: 6.5, 100: 9.3, 200: 13.1, 500: 16.6, 800: 21.7, 1000: 30.9, 1750: 42.3, 2400: 49.6 }
+  data_source: https://elektrokabel.pl/img/1524640314-elektrokabel_ekh-155.pdf
+  additional_info:
+    ext_diameter_mm: 5.4
+    velocity_factor: 0.81
+    impedance: 50
+    price: 3.00
 rf5-satec:
   name: RF-5 (Satec)
   manufacturer: Satec
